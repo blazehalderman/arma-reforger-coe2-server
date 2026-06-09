@@ -1,0 +1,62 @@
+# ===========================================================
+# CRX A.I. Group Configuration
+# ===========================================================
+# Edit this file to override the default CRX A.I. settings.
+# After editing, restart the mission for changes to take effect.
+# Lines starting with # are comments.
+# Delete this file to regenerate with defaults.
+
+# ----- Formation Scale -----
+# Set formation scale of AI groups. Range: -5.0 to 5.0
+# Note: The default formation scale of 1.0 will allow AI groups to scale their formation during combat automatically up to 3.0.
+#       To prevent this behavior set the formation scale to 0.9 or 1.1 or to any value but not 1.0.
+Formation_Scale=1.5
+
+# ----- Weapon Reaction Distances -----
+# Distance in meters AI reacts to gunfire. Range: 0 - 1000.0
+Weapon_Fired_Reaction_Distance=400
+# Distance in meters AI hears suppressed weapons. Range: 0 - 500.0
+Suppressed_Weapon_Audible_Distance=80
+
+# ----- Investigate -----
+# Whether AI groups investigate sounds/contacts. true or false
+Investigate=true
+
+# ----- Investigate Duration -----
+# Duration of how long AI groups investigate. Range: -1 - 300.0
+# Note: -1 = Calculated dynamically based on AI group enemy knowledge.
+Investigate_Duration=-1
+
+# ----- Suppress -----
+# Whether AI groups use suppressive fire. true or false
+Suppress=true
+
+# ----- Suppress Duration -----
+# Duration of how long AI groups use suppressive fire. Range: -1 - 100.0
+# Note: -1 = Calculated dynamically based on AI group threat level.
+Suppress_Duration=-1
+
+# ----- Combat Mode -----
+# RED    = Very Aggressive, fast pace advancing (0).
+# YELLOW = Advancing at a moderate pace, based on threat level and enemy knowledge (1).
+# GREEN  = Still defensive but advancing a bit faster (2).
+# WHITE  = Very defensive, advancing very slowly (3).
+# Note: Case sensitive, all capital letters.
+Combat_Mode=1
+
+# ----- Combat Move/Cover Search Chance -----
+# Chance in percent of how AI groups should be allowed to move/search cover during combat. Range: 0 - 100.0
+Combat_Move_Chance=100
+Combat_Cover_Chance=100
+
+# ----- Combat Movement Type -----
+# GROUP      = AI group will stay toghetter (0).
+# FIRETEAM   = AI group will split into multiple smaller fireteams (1).
+# INDIVIDUAL = Every AI of the group is allowed to move on its own (2).
+# AUTONOMOUS = AI groups will select it randomly or/and based on group size (3).
+# Note: Case sensitive, all capital letters.
+Combat_Movement_Type=1
+
+# ----- Combat In Cover Dynamic Cover Search Chance -----
+# Set chance in percent of how AI of the group should be allowed to search for new cover while already in cover.
+Combat_In_Cover_Dynamic_Cover_Search_Chance=70

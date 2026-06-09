@@ -1,0 +1,526 @@
+{
+    "jsonVersion": 2,
+    "author": "operator-tuned-2026-05-21",
+    "modList": [],
+    "lists": [
+        {
+            "id": "VEHICLE_WHEELED_ALL",
+            "modDir": [
+                "Prefabs/Vehicles/Wheeled",
+                "5D9ECAD071E9ECBC/Prefabs/Vehicles",
+                "652CFB1896E2AA24/Prefabs/Vehicles",
+                "5D0D623BB27CC015/Prefabs/Vehicles",
+                "64CEC8E005828E5D/Prefabs/Vehicles",
+                "65252242719E5A1B/Prefabs/Vehicles"
+            ],
+            "include": [],
+            "exclude": [
+                "_Base",
+                "_Sample",
+                "Tutorial",
+                "_Conflict",
+                "_randomized",
+                "_bench",
+                "_gun_mount",
+                "_roof",
+                "Dst",
+                "Lights",
+                "Probes",
+                "VehParts"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "VEHICLE_WHEELED_MILITARY_ALL",
+            "modDir": [
+                "Prefabs/Vehicles/Wheeled",
+                "5D9ECAD071E9ECBC/Prefabs/Vehicles",
+                "652CFB1896E2AA24/Prefabs/Vehicles",
+                "65252242719E5A1B/Prefabs/Vehicles"
+            ],
+            "include": [],
+            "exclude": [
+                "_Base",
+                "_Sample",
+                "Tutorial",
+                "_Conflict",
+                "_randomized",
+                "_bench",
+                "_gun_mount",
+                "_roof",
+                "Dst",
+                "Lights",
+                "Probes",
+                "VehParts",
+                "Gatoma",
+                "Hilux"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "VEHICLE_WHEELED_CIVILIAN_ALL",
+            "modDir": [
+                "Prefabs/Vehicles/Wheeled",
+                "5D0D623BB27CC015/Prefabs/Vehicles",
+                "64CEC8E005828E5D/Prefabs/Vehicles"
+            ],
+            "include": [],
+            "exclude": [
+                "_Base",
+                "_Sample",
+                "Tutorial",
+                "_Conflict",
+                "_randomized",
+                "_bench",
+                "_gun_mount",
+                "_roof",
+                "Dst",
+                "Lights",
+                "Probes",
+                "VehParts",
+                "HMMWV",
+                "Hummer",
+                "Abrams",
+                "Bradley",
+                "Stryker",
+                "MaxxPro",
+                "JLTV"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "VEHICLE_WHEELED_ARMED",
+            "modDir": [
+                "Prefabs/Vehicles/Wheeled",
+                "5D9ECAD071E9ECBC/Prefabs/Vehicles",
+                "652CFB1896E2AA24/Prefabs/Vehicles",
+                "65252242719E5A1B/Prefabs/Vehicles",
+                "64CEC8E005828E5D/Prefabs/Vehicles"
+            ],
+            "include": [
+                "M2HB",
+                "MK19",
+                "M134",
+                "PKM",
+                "PKP",
+                "KORD",
+                "DShK",
+                "NSV",
+                "AGS",
+                "ZU23",
+                "TOW",
+                "Avenger"
+            ],
+            "exclude": [
+                "_Base",
+                "_Sample",
+                "Tutorial",
+                "_Conflict",
+                "_randomized",
+                "_bench",
+                "_gun_mount",
+                "_roof",
+                "Dst",
+                "Lights",
+                "Probes",
+                "VehParts"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "VEHICLE_WHEELED_UNARMED",
+            "modDir": [
+                "Prefabs/Vehicles/Wheeled",
+                "5D9ECAD071E9ECBC/Prefabs/Vehicles",
+                "652CFB1896E2AA24/Prefabs/Vehicles",
+                "5D0D623BB27CC015/Prefabs/Vehicles"
+            ],
+            "include": [
+                "_unarmed",
+                "_Transport",
+                "_Logistics",
+                "_Cargo",
+                "_Ambulance"
+            ],
+            "exclude": [
+                "_Base",
+                "_Sample",
+                "Tutorial",
+                "_Conflict",
+                "_randomized",
+                "_bench",
+                "_gun_mount",
+                "_roof",
+                "Dst",
+                "Lights",
+                "Probes",
+                "VehParts",
+                "M2HB",
+                "MK19",
+                "M134",
+                "ZU23"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "VEHICLE_WHEELED_ARMOR",
+            "modDir": [
+                "Prefabs/Vehicles/Wheeled",
+                "5D9ECAD071E9ECBC/Prefabs/Vehicles",
+                "652CFB1896E2AA24/Prefabs/Vehicles",
+                "65252242719E5A1B/Prefabs/Vehicles"
+            ],
+            "include": [
+                "BTR",
+                "BRDM",
+                "BRM",
+                "MRAP",
+                "MaxxPro",
+                "Stryker",
+                "Cougar",
+                "JLTV",
+                "M1114",
+                "M1045",
+                "SPARK",
+                "GMV"
+            ],
+            "exclude": [
+                "_Base",
+                "_Sample",
+                "Tutorial",
+                "_Conflict",
+                "_randomized",
+                "_bench",
+                "_gun_mount",
+                "_roof",
+                "Dst",
+                "Lights",
+                "Probes",
+                "VehParts"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "VEHICLE_WHEELED_CIVILIAN_TRUCK",
+            "modDir": [
+                "Prefabs/Vehicles/Wheeled",
+                "5D0D623BB27CC015/Prefabs/Vehicles",
+                "64CEC8E005828E5D/Prefabs/Vehicles"
+            ],
+            "include": [
+                "Hilux",
+                "Pickup",
+                "Civilian_Truck",
+                "Toyota",
+                "Gatoma"
+            ],
+            "exclude": [
+                "_Base",
+                "_Sample",
+                "Tutorial",
+                "_Conflict",
+                "_randomized",
+                "_bench",
+                "_gun_mount",
+                "_roof",
+                "Dst",
+                "Lights",
+                "Probes",
+                "VehParts",
+                "Military"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "VEHICLE_WHEELED_MILITARY_TRUCK",
+            "modDir": [
+                "Prefabs/Vehicles/Wheeled",
+                "652CFB1896E2AA24/Prefabs/Vehicles",
+                "65252242719E5A1B/Prefabs/Vehicles"
+            ],
+            "include": [
+                "FMTV",
+                "KamAZ",
+                "Ural",
+                "M923",
+                "M1078",
+                "Truck",
+                "Logistic",
+                "Cargo"
+            ],
+            "exclude": [
+                "_Base",
+                "_Sample",
+                "Tutorial",
+                "_Conflict",
+                "_randomized",
+                "_bench",
+                "_gun_mount",
+                "_roof",
+                "Dst",
+                "Lights",
+                "Probes",
+                "VehParts",
+                "Civilian"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "VEHICLE_WHEELED_CIVILIAN_CAR",
+            "modDir": [
+                "Prefabs/Vehicles/Wheeled",
+                "5D0D623BB27CC015/Prefabs/Vehicles",
+                "64CEC8E005828E5D/Prefabs/Vehicles"
+            ],
+            "include": [
+                "Sedan",
+                "Hatchback",
+                "S105",
+                "S1203",
+                "Lada",
+                "UAZ",
+                "Civilian_Car"
+            ],
+            "exclude": [
+                "_Base",
+                "_Sample",
+                "Tutorial",
+                "_Conflict",
+                "_randomized",
+                "_bench",
+                "_gun_mount",
+                "_roof",
+                "Dst",
+                "Lights",
+                "Probes",
+                "VehParts",
+                "Military",
+                "Truck"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "VEHICLE_WHEELED_MILITARY_CAR",
+            "modDir": [
+                "Prefabs/Vehicles/Wheeled",
+                "5D9ECAD071E9ECBC/Prefabs/Vehicles",
+                "652CFB1896E2AA24/Prefabs/Vehicles",
+                "65252242719E5A1B/Prefabs/Vehicles"
+            ],
+            "include": [
+                "HMMWV",
+                "Hummer",
+                "M1025",
+                "M998",
+                "M1097",
+                "JLTV",
+                "MRZR",
+                "UAZ",
+                "Tigr"
+            ],
+            "exclude": [
+                "_Base",
+                "_Sample",
+                "Tutorial",
+                "_Conflict",
+                "_randomized",
+                "_bench",
+                "_gun_mount",
+                "_roof",
+                "Dst",
+                "Lights",
+                "Probes",
+                "VehParts",
+                "Civilian"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "VEHICLE_TRACKED_ALL",
+            "modDir": [
+                "Prefabs/Vehicles/Tracked",
+                "5D1880C4AD410C14/Prefabs/Vehicles"
+            ],
+            "include": [],
+            "exclude": [
+                "_Base",
+                "_Sample",
+                "Tutorial",
+                "_Conflict",
+                "_randomized",
+                "_bench",
+                "Dst",
+                "Lights",
+                "Probes",
+                "VehParts"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "VEHICLE_TANK_ALL",
+            "modDir": [
+                "Prefabs/Vehicles/Tracked",
+                "5D1880C4AD410C14/Prefabs/Vehicles"
+            ],
+            "include": [
+                "Abrams",
+                "M1A1",
+                "M1A2",
+                "TUSK",
+                "T72",
+                "T80",
+                "T55",
+                "VT4",
+                "Leopard",
+                "Challenger",
+                "Chieftain"
+            ],
+            "exclude": [
+                "_Base",
+                "_Sample",
+                "Tutorial",
+                "_Conflict",
+                "_randomized",
+                "_bench",
+                "Dst",
+                "Lights",
+                "Probes",
+                "VehParts",
+                "IFV",
+                "APC"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "VEHICLE_HELICOPTER_ALL",
+            "modDir": [
+                "Prefabs/Vehicles/Helicopters"
+            ],
+            "include": [],
+            "exclude": [
+                "_Base",
+                "_Sample",
+                "Tutorial",
+                "_Conflict",
+                "_randomized",
+                "_bench",
+                "_gun_mount",
+                "_roof",
+                "Dst",
+                "Lights",
+                "Probes",
+                "VehParts",
+                "_patrol"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "VEHICLE_CHOPPER_ALL",
+            "modDir": [
+                "Prefabs/Vehicles/Helicopters"
+            ],
+            "include": [],
+            "exclude": [
+                "_Base",
+                "_Sample",
+                "Tutorial",
+                "_Conflict",
+                "_randomized",
+                "_bench",
+                "_gun_mount",
+                "_roof",
+                "Dst",
+                "Lights",
+                "Probes",
+                "VehParts"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "VEHICLE_CHOPPER_TRANSPORT",
+            "modDir": [
+                "Prefabs/Vehicles/Helicopters"
+            ],
+            "include": [
+                "UH-1Y",
+                "UH-60",
+                "Chinook",
+                "H-47",
+                "MH-60",
+                "Mi8",
+                "Mi-8",
+                "Sikorsky",
+                "Skyhook",
+                "_Transport"
+            ],
+            "exclude": [
+                "_Base",
+                "_Sample",
+                "Tutorial",
+                "_Conflict",
+                "_randomized",
+                "_bench",
+                "_gun_mount",
+                "_roof",
+                "Dst",
+                "Lights",
+                "Probes",
+                "VehParts"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "VEHICLE_CHOPPER_ARMED",
+            "modDir": [
+                "Prefabs/Vehicles/Helicopters"
+            ],
+            "include": [
+                "AH-64",
+                "AH-1S",
+                "AH-6",
+                "Apache",
+                "Cobra",
+                "LittleBird",
+                "Mi-24",
+                "Mi24",
+                "Hind",
+                "KA-52",
+                "KA52",
+                "Hokum"
+            ],
+            "exclude": [
+                "_Base",
+                "_Sample",
+                "Tutorial",
+                "_Conflict",
+                "_randomized",
+                "_bench",
+                "_gun_mount",
+                "_roof",
+                "Dst",
+                "Lights",
+                "Probes",
+                "VehParts",
+                "_Transport"
+            ],
+            "items": [],
+            "factions": []
+        }
+    ],
+    "akas": []
+}

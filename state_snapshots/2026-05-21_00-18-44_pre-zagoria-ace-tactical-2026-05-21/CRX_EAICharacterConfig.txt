@@ -1,0 +1,76 @@
+# ===========================================================
+# CRX A.I. Character Configuration
+# ===========================================================
+# Edit this file to override the default CRX A.I. settings.
+# After editing, restart the mission for changes to take effect.
+# Lines starting with # are comments.
+# Delete this file to regenerate with defaults.
+
+# ----- Rank Type -----
+# 0 = CRX | 1 = Vanilla.
+# Set to 1 (Vanilla) so IPC.removeRankRequirements:true is actually honored.
+# CRX's own rank system runs orthogonal to IPC; setting 0 was overriding IPC's bypass.
+Rank_Type=1
+
+# ----- Rearm Type -----
+# 0 = None | 1 = Default | 2 = Weapons | 3 = Magazines.
+Rearm_Type=1
+
+# ----- Perception -----
+# Controls how quickly AI detects targets at different threat levels.
+# Higher = faster detection. Range: 0.0 - 5.0
+# Realism 2026-05-16: 2.0/3.0/2.5 (CRX defaults — STILL above human baseline) → 1.0/2.0/1.5 (vanilla baselines)
+# Rationale: per CRX changelog v1.3.47 vanilla Vigilant=2.5; pre-v1.3.47 vanilla=2.0 (tighter realism).
+# Operator goal "AI shouldn't see better than humans" was only half-achieved by Perception_Modifier=0.0 —
+# the per-state values themselves were still inflated above vanilla. This finishes the realism pass.
+Perception_Safe=1.0
+Perception_Vigilant=2.0
+Perception_Alerted=1.5
+
+# Additive modifier applied to all perception states. Range: -5.0 to 5.0
+# Realism 2026-05-14: 0.3 (enhanced) → 0.0 (baseline; AI shouldn't see better than humans)
+Perception_Modifier=0.0
+
+# ----- Aim Accuracy -----
+# 0 = default accuracy. Positive = worse aim. Negative = better aim.
+# Range: -3.0 to 3.0
+# Realism 2026-05-14: 0.4 (tighter than default) → 0.8 (noticeable spread; real soldiers miss often at range)
+Aim_Accuracy_Error_Modifier=0.8
+
+# ----- Stance -----
+# 0 = Stand | 1 = Crouch | 2 = Prone | 3 = Autonomous.
+Stance=3
+
+# ----- Utilities -----
+# These apply to all AI unless overridden per-group in Game Master.
+
+# ----- Flee Chance -----
+# Set chance in percent.
+# Range: 0 to 100.0
+# Realism 2026-05-14: 0 (never flee) → 20 (real soldiers retreat under bad conditions; unbreakable AI is gamey)
+# Realism 2026-05-16: 20 → 25 (Marshall "Men Against Fire" + modern combat-soldier studies: 25-40% of
+#   unsupported troops break under sustained fire when no leader present. 20 was conservative-side of doctrinal range;
+#   25 sits in the middle. Bump to 30 if combat still feels too sticky.)
+Flee_Chance=25
+
+# ----- Danger Reaction Chance -----
+# Set chance in percent.
+# Range: 0 to 100.0
+Danger_Reaction_Chance=80
+
+# ----- Magazine Consumption Chance -----
+# Set chance in percent.
+# Range: 0 to 100.0
+# Realism 2026-05-16: 100 (force full-mag dump every time = arcade) → 60 (tactical reload doctrine).
+# Per US Army FM 3-21.8: real infantry reload BEFORE empty when threat lulls allow.
+# 100% = AI never reloads tactically; 60% = AI mostly fires bursts then tactical-reloads.
+# Single biggest "doesn't feel human" knob previously untuned. Trade-off: AI exposes itself more during reloads.
+Magazine_Consumption_Chance=60
+
+# ----- Attack Reaction Delay Modifier -----
+# Delay in ms from spotting an enemy to actually start attacking.
+# Set delay in milliseconds of how long A.I. characters should need to identify and start attacking their target.
+# Range: -3000.0 to 3000.0
+# Realism 2026-05-14: 200 (robot-fast) → 800 (human reaction = ~250ms stimulus + ~400ms target ID + ~300ms decision)
+Attack_Reaction_Delay_Modifier=800
+

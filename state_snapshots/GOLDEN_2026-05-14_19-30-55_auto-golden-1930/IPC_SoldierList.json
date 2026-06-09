@@ -1,0 +1,22 @@
+{
+  "_readme": "IPC Soldier Configuration - REVERTED 2026-05-12 22:42 to high-density baseline (simple list, vanilla US/USSR/FIA prefabs).",
+  "version": 3,
+  "factions": {
+    "US": [
+      {"_comment": "US Medic", "prefab": "{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic.et", "enable": true}
+    ],
+    "USSR": [
+      {"_comment": "USSR AAT", "prefab": "{631158F6898738A4}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AAT.et", "enable": true},
+      {"_comment": "USSR AR", "prefab": "{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR.et", "enable": true},
+      {"_comment": "USSR AT", "prefab": "{1C78331E156A3D65}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AT.et", "enable": true},
+      {"_comment": "USSR GL", "prefab": "{8E0FE664CE7D1CA9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GL.et", "enable": true},
+      {"_comment": "USSR Medic", "prefab": "{AB9726163EC1BD81}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic.et", "enable": true},
+      {"_comment": "USSR MG", "prefab": "{96C784C502AC37DA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG.et", "enable": true},
+      {"_comment": "USSR Rifleman", "prefab": "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et", "enable": true},
+      {"_comment": "USSR SL", "prefab": "{5436629450D8387A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL.et", "enable": true}
+    ],
+    "FIA": [
+      {"_comment": "Placeholder using US Medic", "prefab": "{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic.et", "enable": true}
+    ]
+  }
+}

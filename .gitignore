@@ -1,0 +1,71 @@
+# ──────────────────────────────────────────────────────────────────────────
+# Arma Reforger server config archive
+#
+# Strategy: ignore EVERYTHING by default, then explicitly allow only the
+# custom config / operator scripts / docs. This guarantees the ~40 GB of
+# Steam-managed game data, Workshop mods, logs, crash dumps, engine binaries
+# and the engine player-save can NEVER be committed — only re-downloadable
+# content and runtime junk live in those paths, and a fresh Steam install
+# regenerates them.
+# ──────────────────────────────────────────────────────────────────────────
+
+# ── Ignore everything (each directory level must be re-ignored to reach
+#    nested files we want to allow further down) ──
+/*
+profile_new/*
+profile_new/profile/*
+
+# ── Credentials that must NEVER be committed (also covered by the rule
+#    above; listed explicitly as a tripwire) ──
+profile_new/profile/ownerToken.bin
+
+# ══════════════════════════════════════════════════════════════════════════
+# ALLOW-LIST — everything below is un-ignored (later rules win)
+# ══════════════════════════════════════════════════════════════════════════
+
+# ── Repo meta ──
+!/.gitignore
+!/README.md
+
+# ── Live + reference + deployed server configs ──
+!/serverConfig.json
+!/serverConfigDeployed.json
+!/serverConfig.pre-restoration-2026-05-10.json
+
+# ── Operator scripts ──
+!/start_server.ps1
+!/analyze_logs.ps1
+!/mod_health_check.ps1
+!/snapshot_state.ps1
+!/restore_state.ps1
+!/snapshot_agent.ps1
+!/snapshot_agent_loop.cmd
+!/_reorder_to_layers.ps1
+
+# ── Operator docs / notes ──
+!/CLAUDE.md
+!/MASTER_OBJECTIVE.md
+!/WORKBENCH_BRIDGE_MOD_PLAN.md
+!/CONTEXT_PROMPT.md
+!/GAME_HOST_BROS_DEPLOYMENT.md
+!/HANDOFF_CONTEXT.md
+!/LIVE_TEST_CASES.md
+!/MOD_INGAME_GUIDE.md
+!/SESSION_LOG_2026-05-13.md
+!/context.md
+!/experiment.md
+
+# ── Custom doc dir + rollback snapshot history (small, config-only) ──
+!/mod_docs/
+!/state_snapshots/
+
+# ── Per-mod server-side configs under the working profile ──
+!profile_new/
+!profile_new/profile/
+!profile_new/profile/ServerAdminTools_Config.json
+!profile_new/profile/ScenarioReloadMenu_Config.json
+!profile_new/profile/CRX_EAI/
+!profile_new/profile/GRS_ATAK/
+!profile_new/profile/ATAK/
+!profile_new/profile/DarcMods/
+!profile_new/profile/WCS_LoadoutEditor/

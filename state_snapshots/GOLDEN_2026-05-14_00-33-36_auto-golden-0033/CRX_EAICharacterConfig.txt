@@ -1,0 +1,61 @@
+# ===========================================================
+# CRX A.I. Character Configuration
+# ===========================================================
+# Edit this file to override the default CRX A.I. settings.
+# After editing, restart the mission for changes to take effect.
+# Lines starting with # are comments.
+# Delete this file to regenerate with defaults.
+
+# ----- Rank Type -----
+# 0 = CRX | 1 = Vanilla.
+# Set to 1 (Vanilla) so IPC.removeRankRequirements:true is actually honored.
+# CRX's own rank system runs orthogonal to IPC; setting 0 was overriding IPC's bypass.
+Rank_Type=1
+
+# ----- Rearm Type -----
+# 0 = None | 1 = Default | 2 = Weapons | 3 = Magazines.
+Rearm_Type=1
+
+# ----- Perception -----
+# Controls how quickly AI detects targets at different threat levels.
+# Higher = faster detection. Range: 0.0 - 5.0
+Perception_Safe=2.0
+Perception_Vigilant=3.0
+Perception_Alerted=2.5
+
+# Additive modifier applied to all perception states. Range: -5.0 to 5.0
+Perception_Modifier=0.3
+
+# ----- Aim Accuracy -----
+# 0 = default accuracy. Positive = worse aim. Negative = better aim.
+# Range: -3.0 to 3.0
+Aim_Accuracy_Error_Modifier=0.4
+
+# ----- Stance -----
+# 0 = Stand | 1 = Crouch | 2 = Prone | 3 = Autonomous.
+Stance=3
+
+# ----- Utilities -----
+# These apply to all AI unless overridden per-group in Game Master.
+
+# ----- Flee Chance -----
+# Set chance in percent.
+# Range: 0 to 100.0
+Flee_Chance=0
+
+# ----- Danger Reaction Chance -----
+# Set chance in percent.
+# Range: 0 to 100.0
+Danger_Reaction_Chance=80
+
+# ----- Magazine Consumption Chance -----
+# Set chance in percent.
+# Range: 0 to 100.0
+Magazine_Consumption_Chance=100
+
+# ----- Attack Reaction Delay Modifier -----
+# Delay in ms from spotting an enemy to actually start attacking.
+# Set delay in milliseconds of how long A.I. characters should need to identify and start attacking their target.
+# Range: -3000.0 to 3000.0
+Attack_Reaction_Delay_Modifier=200
+

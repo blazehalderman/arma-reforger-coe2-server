@@ -1,0 +1,111 @@
+{
+  "_about": "ATAK server config. Restart the server to apply changes. Delete this file to regenerate defaults. Any key starting with '_' is documentation and is ignored by the loader.",
+
+  "features": {
+    "_about": "Toggle whole subsystems on/off. Disabling a feature removes its CPU/bandwidth cost entirely. road_rendering can be expensive on dense maps with many players \u2014 the server queries the road network and ships polylines to each client over RPC. If you see performance issues on a busy server, road_rendering is the first thing to disable. compass_heading_display, town_labels, and elevation_contours are pure client-side render toggles with no server cost.",
+    "battery_drain":           true,
+    "bft":                     true,
+    "road_rendering":          true,
+    "signal_gating":           true,
+    "map_drawing":             true,
+    "user_markers":            true,
+    "chat":                    true,
+    "compass_heading_display": true,
+    "town_labels":             true,
+    "elevation_contours":      true,
+    "boot_splash":             true,
+    "waypoint":                true
+  },
+
+  "battery": {
+    "_about": "Battery drain. No effect if features.battery_drain is false. life_minutes = real-world minutes from full to dead (180=3hr, 1440=24hr). start_charge = fraction at spawn (0..1, 1=100%).",
+    "life_minutes": 180,
+    "start_charge": 1
+  },
+
+  "bft": {
+    "_about": "Blue Force Tracking \u2014 friendly position broadcast. update_interval_ms = how often friendlies refresh (lower=more responsive, higher=less bandwidth). radius_m = max world distance a friendly is included. max_groups_per_faction = hard cap on tracked squads.",
+    "update_interval_ms":     2000,
+    "radius_m":               1500,
+    "max_groups_per_faction": 32
+  },
+
+  "display": {
+    "_about": "Server snapshot polling for friendlies/AI on the device map. client_poll_interval_ms = how often each device asks the server for an update. unit_stale_max_ms / ai_stale_max_ms = how long to keep showing a marker after its last update before dropping it. tracking_mode = which friendlies the device displays. Values: off (no friendly markers, only self + AI), faction (default; every player in the same faction), group (own group only \u2014 all members of the local player's group), group_and_leaders (own group's members PLUS every other squad's leader \u2014 squad cohesion + cross-team command awareness), group_leader (every squad's leader across the faction, no other members). Other factions are always hidden in every mode. AI markers always render regardless of tracking_mode.",
+    "client_poll_interval_ms": 500,
+    "unit_stale_max_ms":       30000,
+    "ai_stale_max_ms":         10000,
+    "tracking_mode":           "faction"
+  },
+
+  "drawing": {
+    "_about": "Player-drawn map strokes. total_limit = strokes across the whole server (oldest dropped). per_player_limit = strokes per player (own oldest dropped). max_points_per_stroke caps any one stroke's length. add_throttle_ms is anti-spam.",
+    "total_limit":           200,
+    "per_player_limit":      10,
+    "max_points_per_stroke": 300,
+    "add_throttle_ms":       250,
+    "colors": {
+      "_about": "Hex colors for the seven drawing palette slots (0-6) shown on the device stylus picker. Accepts #RRGGBB or #RRGGBBAA (alpha defaults to FF). Slot order is fixed \u2014 indices are part of the wire format and persist across saved drawings, so changing slot 0 hex repaints every existing drawing already placed in slot 0. Invalid or blank values fall back to the built-in defaults. The 8th slot (rightmost on the palette) is reserved as the eraser tool \u2014 it deletes drawings the cursor passes over while held, so it has no configurable color.",
+      "0": "#4D8CF2",
+      "1": "#E64D4D",
+      "2": "#4DCC66",
+      "3": "#F2CC33",
+      "4": "#4DD9E6",
+      "5": "#F29933",
+      "6": "#D959CC"
+    }
+  },
+
+  "markers": {
+    "_about": "Player-placed military symbol markers. total_limit caps the whole-server marker count. per_player_limit caps each player's owned count. Both are hard refusals \u2014 placement at cap is rejected with no rollover, so the placement intent fails until the player (or admin) frees a slot by removing one. Raise these for scenarios with heavy marker traffic; bandwidth scales with broadcasts (placements/removals), not with stored count.",
+    "total_limit":      500,
+    "per_player_limit": 20
+  },
+
+  "player_markers": {
+    "_about": "Color choices a player can pick for their map marker chevron in Settings. Eight slots indexed 0..7. Same #RRGGBB or #RRGGBBAA hex format as drawing.colors. Each player picks one slot via their device; the chosen color replicates to every other client and tints their chevron + HUD marker. AI markers are unaffected.",
+    "colors": {
+      "0": "#4072C7",
+      "1": "#33A052",
+      "2": "#D24040",
+      "3": "#E5C233",
+      "4": "#33C0CC",
+      "5": "#E58A33",
+      "6": "#B855A6",
+      "7": "#E63985"
+    }
+  },
+
+  "chat": {
+    "_about": "ATAK in-device chat (vanilla chat is unaffected). max_visible_lines = scrollback. refresh_interval_ms = poll cadence. text_max_len = per-message character cap.",
+    "max_visible_lines":   30,
+    "refresh_interval_ms": 250,
+    "text_max_len":        256
+  },
+
+  "signal": {
+    "_about": "Antenna / radio-coverage rescan cadences. No effect if features.signal_gating is false.",
+    "antenna_scan_interval_ms":  10000,
+    "coverage_scan_interval_ms": 10000
+  },
+
+  "roads": {
+    "_about": "Road network query parameters. No effect if features.road_rendering is false. request_radius_m = box half-extent the server queries (bigger = more roads cached, larger RPC payload). max_segments_per_reply caps the per-RPC payload (~28 bytes/segment, target <70KB to stay under reliable-RPC ceiling).",
+    "request_radius_m":       1200,
+    "max_segments_per_reply": 2500
+  },
+
+  "hud": {
+    "_about": "Look-down screen defaults. default_range_m = zoom on power-on. zoom_min/max/step_m = bounds and granularity for the [ / ] zoom keys. hud_tick_ms = redraw cadence (33\u224830Hz, 16\u224860Hz; lower = smoother heading-up rotation but more client CPU).",
+    "default_range_m": 100,
+    "zoom_min_m":      25,
+    "zoom_max_m":      1000,
+    "zoom_step_m":     25,
+    "hud_tick_ms":     33
+  },
+
+  "admin": {
+    "_about": "Admin overrides. allow_purge_all gates the radial 'Clear All' slice for both markers and map drawings. When false (default), even server admins cannot wipe other players' work \u2014 the slice still appears in the radial but the server denies the RPC. Set to true if you want admins to be able to clear the whole board between mission phases or after a brief.",
+    "allow_purge_all": false
+  }
+}

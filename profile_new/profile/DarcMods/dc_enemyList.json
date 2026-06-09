@@ -1,0 +1,737 @@
+{
+    "jsonVersion": 2,
+    "author": "operator-tuned-2026-05-21",
+    "modList": [],
+    "lists": [
+        {
+            "id": "G_LIGHT",
+            "modDir": [
+                "Prefabs/Groups",
+                "622120A5448725E3/Prefabs/Groups",
+                "64CEC8E005828E5D/Prefabs/Groups",
+                "65252242719E5A1B/Prefabs/Groups"
+            ],
+            "include": [
+                "LightFire",
+                "FireTeam",
+                "FireGroup",
+                "RifleSquad",
+                "SentryTeam",
+                "Regulars_Brick",
+                "InfantrySection",
+                "Group_Zombies_CIV",
+                "Group_Zombies_FIA",
+                "Group_Zombies_US",
+                "Group_Zombies_USSR",
+                "MEI_FireTeam",
+                "MEI_Patrol",
+                "Insurgent_Light",
+                "ModernRussian_FireTeam",
+                "CloseProtectionTeam"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "_Random",
+                "_Heavy"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "G_SNIPER",
+            "modDir": [
+                "Prefabs/Groups",
+                "622120A5448725E3/Prefabs/Groups",
+                "64CEC8E005828E5D/Prefabs/Groups",
+                "65252242719E5A1B/Prefabs/Groups"
+            ],
+            "include": [
+                "Sniper",
+                "SharpShooter",
+                "USSR_Spetsnaz_SentryTeam",
+                "VKPO_S_SentryTeam.et",
+                "Group_Zombies_CIV",
+                "Group_Zombies_FIA",
+                "Group_Zombies_US",
+                "Group_Zombies_USSR",
+                "MEI_Sniper",
+                "ModernRussian_Sniper",
+                "CloseProtectionTeam"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "_Random"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "G_LAUNCHER",
+            "modDir": [
+                "Prefabs/Groups",
+                "622120A5448725E3/Prefabs/Groups",
+                "64CEC8E005828E5D/Prefabs/Groups",
+                "65252242719E5A1B/Prefabs/Groups"
+            ],
+            "include": [
+                "Team_AT",
+                "Team_GL",
+                "Team_LAT",
+                "Group_Zombies_High",
+                "MEI_AT_Team",
+                "MEI_RPG_Team",
+                "ModernRussian_AT_Team",
+                "CloseProtectionTeam"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "_Random"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "G_ADMIN",
+            "modDir": [
+                "Prefabs/Groups",
+                "622120A5448725E3/Prefabs/Groups",
+                "64CEC8E005828E5D/Prefabs/Groups",
+                "65252242719E5A1B/Prefabs/Groups"
+            ],
+            "include": [
+                "_Platoon",
+                "Group_Zombies_High",
+                "MEI_Squad",
+                "ModernRussian_Squad",
+                "StaticSecurityTeam"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "_Random"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "G_MEDICAL",
+            "modDir": [
+                "Prefabs/Groups",
+                "622120A5448725E3/Prefabs/Groups",
+                "64CEC8E005828E5D/Prefabs/Groups",
+                "65252242719E5A1B/Prefabs/Groups"
+            ],
+            "include": [
+                "_Medical",
+                "Group_Zombies_High",
+                "MEI_Medical",
+                "StaticSecurityTeam"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "_Random"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "G_RECON",
+            "modDir": [
+                "Prefabs/Groups",
+                "622120A5448725E3/Prefabs/Groups",
+                "64CEC8E005828E5D/Prefabs/Groups",
+                "65252242719E5A1B/Prefabs/Groups"
+            ],
+            "include": [
+                "_Recon",
+                "_Maneuver",
+                "_RecceTeam",
+                "Group_Zombies_CIV",
+                "Group_Zombies_FIA",
+                "Group_Zombies_US",
+                "Group_Zombies_USSR",
+                "MEI_Recon",
+                "ModernRussian_Recon",
+                "CloseProtectionTeam"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "_Random"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "G_HEAVY",
+            "modDir": [
+                "Prefabs/Groups",
+                "622120A5448725E3/Prefabs/Groups",
+                "64CEC8E005828E5D/Prefabs/Groups",
+                "65252242719E5A1B/Prefabs/Groups"
+            ],
+            "include": [
+                "MachineGunTeam",
+                "FireTeam",
+                "FireGroup",
+                "Suppress",
+                "Spetsnaz_Squad",
+                "GunGroup",
+                "Group_Zombies_Horde",
+                "Group_Zombies_CIV_Large",
+                "MEI_Heavy",
+                "MEI_MG_Team",
+                "ModernRussian_Heavy",
+                "QuickReactionForce"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "_Random"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "G_SPECIAL",
+            "modDir": [
+                "Prefabs/Groups",
+                "622120A5448725E3/Prefabs/Groups",
+                "64CEC8E005828E5D/Prefabs/Groups",
+                "65252242719E5A1B/Prefabs/Groups"
+            ],
+            "include": [
+                "GreenBeret",
+                "Sapper",
+                "Sentry",
+                "Spetsnaz",
+                "SpecialForces",
+                "Group_Zombies_Horde",
+                "MEI_SF",
+                "ModernRussian_Spetsnaz",
+                "MobileSecurityTeam"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "_Random"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "G_SMALL",
+            "modDir": [
+                "Prefabs/Groups",
+                "622120A5448725E3/Prefabs/Groups",
+                "64CEC8E005828E5D/Prefabs/Groups",
+                "65252242719E5A1B/Prefabs/Groups"
+            ],
+            "include": [
+                "Spetsnaz_SentryTeam",
+                "GreenBeret_SentryTeam",
+                "SentryTeam",
+                "SharpshooterTeam",
+                "MedicalSection",
+                "SapperTeam",
+                "Group_Zombies_CIV",
+                "Group_Zombies_FIA",
+                "Group_Zombies_US",
+                "Group_Zombies_USSR",
+                "MEI_SentryTeam",
+                "MEI_Patrol",
+                "ModernRussian_SentryTeam",
+                "CloseProtectionTeam"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "_Random"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "C_RIFLEMAN",
+            "modDir": [
+                "Prefabs/Characters/Factions",
+                "622120A5448725E3/Prefabs/Characters",
+                "64CEC8E005828E5D/Prefabs/Characters",
+                "65252242719E5A1B/Prefabs/Characters",
+                "67126A42BAE3B5EB/Prefabs/Characters"
+            ],
+            "include": [
+                "Rifleman",
+                "Sapper",
+                "_PL",
+                "_SL",
+                "Zombie_CIV",
+                "Zombie_FIA",
+                "Zombie_US",
+                "Zombie_USSR",
+                "MEI_Rifleman",
+                "MEI_Insurgent",
+                "Insurgent_Rifleman",
+                "ModernRussian_Rifleman",
+                "UAF_Rifleman",
+                "Marksman"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "/CIV/",
+                "_Randomized",
+                "Variant",
+                "Suppressed",
+                "Unarmed",
+                "_Random"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "C_HEAVY",
+            "modDir": [
+                "Prefabs/Characters/Factions",
+                "622120A5448725E3/Prefabs/Characters",
+                "64CEC8E005828E5D/Prefabs/Characters",
+                "65252242719E5A1B/Prefabs/Characters",
+                "67126A42BAE3B5EB/Prefabs/Characters"
+            ],
+            "include": [
+                "_GL",
+                "_MG",
+                "Grenadier",
+                "_Ammo",
+                "_LMG",
+                "Exploder",
+                "Heavy_Tank",
+                "MEI_MG",
+                "MEI_Grenadier",
+                "ModernRussian_MG",
+                "ModernRussian_Grenadier",
+                "UAF_MG"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "/CIV/",
+                "_Randomized",
+                "Variant",
+                "Suppressed",
+                "Unarmed",
+                "_Random"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "C_RECON",
+            "modDir": [
+                "Prefabs/Characters/Factions",
+                "622120A5448725E3/Prefabs/Characters",
+                "64CEC8E005828E5D/Prefabs/Characters",
+                "65252242719E5A1B/Prefabs/Characters",
+                "67126A42BAE3B5EB/Prefabs/Characters"
+            ],
+            "include": [
+                "Scout",
+                "Spotter",
+                "_RTO",
+                "_SL",
+                "_GL",
+                "_AG1",
+                "Zombie_Military_ALL",
+                "Military_Pistol_ALL",
+                "MEI_Scout",
+                "ModernRussian_Scout",
+                "UAF_Scout"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "/CIV/",
+                "_Randomized",
+                "Variant",
+                "Suppressed",
+                "Unarmed",
+                "_Random"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "C_OFFICER",
+            "modDir": [
+                "Prefabs/Characters/Factions",
+                "622120A5448725E3/Prefabs/Characters",
+                "64CEC8E005828E5D/Prefabs/Characters",
+                "65252242719E5A1B/Prefabs/Characters",
+                "67126A42BAE3B5EB/Prefabs/Characters"
+            ],
+            "include": [
+                "_Officer",
+                "Sergeant",
+                "_AC",
+                "_Leader",
+                "Exploder",
+                "Heavy_Tank",
+                "MEI_Leader",
+                "MEI_Officer",
+                "ModernRussian_Officer",
+                "UAF_Officer"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "/CIV/",
+                "_Randomized",
+                "Variant",
+                "Suppressed",
+                "Unarmed",
+                "_Random"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "C_CREW",
+            "modDir": [
+                "Prefabs/Characters/Factions",
+                "622120A5448725E3/Prefabs/Characters",
+                "64CEC8E005828E5D/Prefabs/Characters",
+                "65252242719E5A1B/Prefabs/Characters",
+                "67126A42BAE3B5EB/Prefabs/Characters"
+            ],
+            "include": [
+                "Crew",
+                "Pilot",
+                "_CC",
+                "MEI_Leader",
+                "MEI_Crew",
+                "Exploder",
+                "Heavy_Tank",
+                "ModernRussian_Crew",
+                "UAF_Crew"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "/CIV/",
+                "_Randomized",
+                "Variant",
+                "Suppressed",
+                "Unarmed",
+                "_Random"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "C_SNIPER",
+            "modDir": [
+                "Prefabs/Characters/Factions",
+                "622120A5448725E3/Prefabs/Characters",
+                "64CEC8E005828E5D/Prefabs/Characters",
+                "65252242719E5A1B/Prefabs/Characters",
+                "67126A42BAE3B5EB/Prefabs/Characters"
+            ],
+            "include": [
+                "Sniper",
+                "Sharpshooter",
+                "Exploder",
+                "MEI_Sniper",
+                "ModernRussian_Sniper",
+                "UAF_Sniper"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "/CIV/",
+                "_Randomized",
+                "Variant",
+                "Suppressed",
+                "Unarmed",
+                "_Random"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "C_LAUNCHER",
+            "modDir": [
+                "Prefabs/Characters/Factions",
+                "622120A5448725E3/Prefabs/Characters",
+                "64CEC8E005828E5D/Prefabs/Characters",
+                "65252242719E5A1B/Prefabs/Characters",
+                "67126A42BAE3B5EB/Prefabs/Characters"
+            ],
+            "include": [
+                "_AAT",
+                "_AT",
+                "_LAT",
+                "Exploder",
+                "MEI_AT",
+                "MEI_RPG",
+                "ModernRussian_AT",
+                "UAF_AT"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "/CIV/",
+                "_Randomized",
+                "Variant",
+                "Suppressed",
+                "Unarmed",
+                "_Random"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "C_MEDIC",
+            "modDir": [
+                "Prefabs/Characters/Factions",
+                "622120A5448725E3/Prefabs/Characters",
+                "64CEC8E005828E5D/Prefabs/Characters",
+                "65252242719E5A1B/Prefabs/Characters",
+                "67126A42BAE3B5EB/Prefabs/Characters"
+            ],
+            "include": [
+                "Medic",
+                "Zombie_Military_ALL",
+                "Military_Pistol_ALL",
+                "MEI_Medic",
+                "ModernRussian_Medic",
+                "UAF_Medic"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "/CIV/",
+                "_Randomized",
+                "Variant",
+                "Suppressed",
+                "Unarmed",
+                "_Random"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "C_SPECIAL",
+            "modDir": [
+                "Prefabs/Characters/Factions",
+                "622120A5448725E3/Prefabs/Characters",
+                "64CEC8E005828E5D/Prefabs/Characters",
+                "65252242719E5A1B/Prefabs/Characters",
+                "67126A42BAE3B5EB/Prefabs/Characters"
+            ],
+            "include": [
+                "_SF",
+                "_SR",
+                "FIA_AC",
+                "_Bomb",
+                "MEI_Rifleman1",
+                "MEI_SuicideVest",
+                "Zombie_Military_ALL",
+                "Military_Pistol_ALL",
+                "Exploder",
+                "Heavy_Tank",
+                "ModernRussian_SF",
+                "UAF_SF"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "/CIV/",
+                "_Randomized",
+                "Variant",
+                "Suppressed",
+                "Unarmed",
+                "_Random"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "G_ZOMBIE_SMALL",
+            "modDir": [
+                "622120A5448725E3/Prefabs/Groups"
+            ],
+            "include": [
+                "Group_Zombies_CIV",
+                "Group_Zombies_FIA",
+                "Group_Zombies_US",
+                "Group_Zombies_USSR"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "/CIV/",
+                "_Randomized",
+                "Variant",
+                "Suppressed",
+                "Unarmed",
+                "_Random",
+                "_Huge",
+                "_Large",
+                "_Medium"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "G_ZOMBIE_MEDIUM",
+            "modDir": [
+                "622120A5448725E3/Prefabs/Groups"
+            ],
+            "include": [
+                "Group_Zombies_CIV_Large",
+                "Group_Zombies_High"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "/CIV/",
+                "_Randomized",
+                "Variant",
+                "Suppressed",
+                "Unarmed",
+                "_Random"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "G_ZOMBIE_LARGE",
+            "modDir": [
+                "622120A5448725E3/Prefabs/Groups"
+            ],
+            "include": [
+                "Group_Zombies_Horde"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "/CIV/",
+                "_Randomized",
+                "Variant",
+                "Suppressed",
+                "Unarmed",
+                "_Random"
+            ],
+            "items": [],
+            "factions": []
+        },
+        {
+            "id": "C_ZOMBIE",
+            "modDir": [
+                "622120A5448725E3/Prefabs/Characters"
+            ],
+            "include": [
+                "Zombie_",
+                "Character_",
+                "Variant_"
+            ],
+            "exclude": [
+                "_Base",
+                "_NotSpawned",
+                "_Remnants",
+                "/CIV/",
+                "_Randomized",
+                "Variant",
+                "Suppressed",
+                "Unarmed",
+                "_Random",
+                "Zombie_Heavy"
+            ],
+            "items": [],
+            "factions": []
+        }
+    ],
+    "akas": [
+        {
+            "names": [
+                "RHS_USAF",
+                "USAF_USMC"
+            ]
+        },
+        {
+            "names": [
+                "RHS_AFRF",
+                "RHS_RF"
+            ]
+        },
+        {
+            "names": [
+                "USSR",
+                "TF_RF"
+            ]
+        },
+        {
+            "names": [
+                "US",
+                "TF_US"
+            ]
+        },
+        {
+            "names": [
+                "BACON_622120A5448725E3_FACTION",
+                "Zombie",
+                "Zombies"
+            ]
+        },
+        {
+            "names": [
+                "MEI_64CEC8E005828E5D_FACTION",
+                "MEI",
+                "MiddleEastInsurgents",
+                "Insurgent",
+                "Insurgents"
+            ]
+        },
+        {
+            "names": [
+                "ModernRussian_65252242719E5A1B_FACTION",
+                "ModernRussians",
+                "ModernRU",
+                "TacticalBarbiesRU"
+            ]
+        },
+        {
+            "names": [
+                "UAF_67126A42BAE3B5EB_FACTION",
+                "UAF",
+                "UkraineArmedForces",
+                "ZSU"
+            ]
+        }
+    ]
+}

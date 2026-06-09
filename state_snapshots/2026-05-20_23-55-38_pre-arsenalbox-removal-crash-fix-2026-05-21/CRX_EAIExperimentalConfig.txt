@@ -1,0 +1,46 @@
+# ===========================================================
+# CRX A.I. Experimental Configuration
+# ===========================================================
+# Edit this file to override the default CRX A.I. settings.
+# After editing, restart the mission for changes to take effect.
+# Lines starting with # are comments.
+# Delete this file to regenerate with defaults.
+
+# ----- Comms Handler Timeout -----
+# Description: Timeout in seconds between AI talked/communicated the last time.
+# Note: Timeout value will be randomized ( randomly increased ) by set value.
+# Range: 0 - 100.0 seconds
+Comms_Handler_Timeout=10
+
+# ----- Weather Conditions Affects AI -----
+# Description: .
+# Note: 
+# Whether true or false
+Weather_Conditions_Affects_AI=true
+
+# ----- Movement Affects AI Aim Accuracy -----
+# Description: .
+# Note: 
+# Whether true or false
+Movement_Affects_AI_Aim_Accuracy=true
+
+# ----- Low Light Environment Affects AI -----
+# Description: .
+# Note: 
+# Whether true or false
+Low_Light_Environment_Affects_AI=true
+
+# ----- Low Light Environment Modifier -----
+# Description: Will divide A.I. perception value by set modifier during low light ( night ) time.
+# Note: Higher value will decrease A.I. perception even further. Default: 2.0 | Use small steppings ( 0.1 - 0.5 ) only, since they can already affect A.I. perception.
+# Range: 1.0 - 3.0
+# Realism 2026-05-16: 2 → 2.5 (real soldiers in unaided night vision struggle to detect at >50m vs daytime 400m+).
+# NVG-equipped AI still functional. Combines with DarkerNights + NIGHTVISION mods for the realism night-ops flow.
+Low_Light_Environment_Modifier=2.5
+
+# ----- Perceived Faction Changes Affects AI -----
+# Description: .
+# Note: 
+# Whether true or false
+Perceived_Faction_Changes_Affects_AI=false
+

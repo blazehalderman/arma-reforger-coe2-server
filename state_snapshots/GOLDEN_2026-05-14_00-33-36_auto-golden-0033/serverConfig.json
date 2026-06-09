@@ -1,0 +1,511 @@
+{
+    "bindAddress":  "0.0.0.0",
+    "bindPort":  2001,
+    "publicAddress":  "76.235.218.202",
+    "publicPort":  2001,
+    "a2s":  {
+                "address":  "0.0.0.0",
+                "port":  17777
+            },
+    "operating":  {
+                      "lobbyPlayerSynchronise":  true,
+                      "playerSaveTime":  120,
+                      "aiLimit":  3500,
+                      "slotReservationTimeout":  60,
+                      "disableServerShutdown":  false,
+                      "disableCrashReporter":  true,
+                      "disableNavmeshStreaming":  [
+
+                                                  ]
+                  },
+    "game":  {
+                 "name":  "PC - Conflict PVE Remixed Vanilla 2.0 Everon 4x (high AI density - community standard)",
+                 "password":  "",
+                 "passwordAdmin":  "admin123",
+                 "scenarioId":  "{EE676FAB9DFA4CF7}Missions/COE2_Eden.conf",
+                 "maxPlayers":  30,
+                 "visible":  true,
+                 "crossPlatform":  false,
+                 "supportedPlatforms":  [
+                                            "PLATFORM_PC"
+                                        ],
+                 "gameProperties":  {
+                                        "serverMaxViewDistance":  3000,
+                                        "serverMinGrassDistance":  50,
+                                        "networkViewDistance":  2000,
+                                        "disableThirdPerson":  true,
+                                        "fastValidation":  true,
+                                        "battlEye":  false,
+                                        "VONDisableUI":  false,
+                                        "VONDisableDirectSpeechUI":  false,
+                                        "missionHeader":  {
+                                                              "m_iPlayerCount":  30,
+                                                              "m_eEditableGameFlags":  6,
+                                                              "m_eDefaultGameFlags":  6,
+                                                              "m_bFriendlyFire":  true,
+                                                              "m_bMapMarkers":  true,
+                                                              "m_bChatDisabled":  false
+                                                          }
+                                    },
+                 "mods":  [
+                              {
+                                  "name":  "SpaceCore",
+                                  "modId":  "5E389BB9F58B79A6"
+                              },
+                              {
+                                  "name":  "AKI_Core",
+                                  "modId":  "62CCD69DD17E4F2F"
+                              },
+                              {
+                                  "name":  "AUS_CORE",
+                                  "modId":  "6276E6E3CC97A22B"
+                              },
+                              {
+                                  "name":  "MFDFramework",
+                                  "modId":  "64EE818E08AFCF94"
+                              },
+                              {
+                                  "name":  "AFWCore",
+                                  "modId":  "687CD82F6E41D627"
+                              },
+                              {
+                                  "name":  "AttachmentFramework",
+                                  "modId":  "645F08FA9E7CDEDE"
+                              },
+                              {
+                                  "name":  "RayziUtils",
+                                  "modId":  "6632F94B46173164"
+                              },
+                              {
+                                  "name":  "GRS-DevFramework",
+                                  "modId":  "65DACC64CE785B6C"
+                              },
+                              {
+                                  "name":  "ZeliksCharacter",
+                                  "modId":  "5D0551624969C92E"
+                              },
+                              {
+                                  "name":  "RHS_Content_01",
+                                  "modId":  "1337C0DE5DABBEEF"
+                              },
+                              {
+                                  "name":  "RHS_Content_02",
+                                  "modId":  "BADC0DEDABBEDA5E"
+                              },
+                              {
+                                  "name":  "RHS_Status_Quo",
+                                  "modId":  "595F2BF2F44836FB"
+                              },
+                              {
+                                  "name":  "WCS_Core",
+                                  "modId":  "64610AFB74AA9842"
+                              },
+                              {
+                                  "name":  "WCS_Weapon_Scripts",
+                                  "modId":  "68F006D910E7546F"
+                              },
+                              {
+                                  "name":  "WCS_NATO",
+                                  "modId":  "615806DC6C57AF02"
+                              },
+                              {
+                                  "name":  "WCS_RU",
+                                  "modId":  "615818DA7C0343FD"
+                              },
+                              {
+                                  "name":  "WCS_Clothing_Assets",
+                                  "modId":  "6602C1EC7E5A4A87"
+                              },
+                              {
+                                  "name":  "WCS_Clothing",
+                                  "modId":  "6152CB0BD0684837"
+                              },
+                              {
+                                  "name":  "WCS_Attachments",
+                                  "modId":  "61C74A8B647617DA"
+                              },
+                              {
+                                  "name":  "WCS_Scopes",
+                                  "modId":  "62A668F513428630"
+                              },
+                              {
+                                  "name":  "WCS_Sounds",
+                                  "modId":  "631C3C1AEE9C90BC"
+                              },
+                              {
+                                  "name":  "WCS_Armaments",
+                                  "modId":  "629B2BA37EFFD577"
+                              },
+                              {
+                                  "name":  "WCS_Weapons",
+                                  "modId":  "65CF7AE8574E06D2"
+                              },
+                              {
+                                  "modId":  "612F512CD4CB21D5",
+                                  "name":  "WCS_Earplugs",
+                                  "version":  ""
+                              },
+                              {
+                                  "name":  "WCS_LoadoutEditor",
+                                  "modId":  "61D57616CAFBB23D"
+                              },
+                              {
+                                  "modId":  "615CC2D870A39838",
+                                  "name":  "WCS_Arsenal",
+                                  "version":  ""
+                              },
+                              {
+                                  "name":  "WCS_Armbands",
+                                  "modId":  "61E42AE6714A3CC2"
+                              },
+                              {
+                                  "name":  "WCS_AH-64D",
+                                  "modId":  "6303360DA719E832"
+                              },
+                              {
+                                  "name":  "AH-6M_LittleBird",
+                                  "modId":  "6273146ADFE8241D"
+                              },
+                              {
+                                  "name":  "WCS_Mi-24V",
+                                  "modId":  "628933A0D3A0D700"
+                              },
+                              {
+                                  "name":  "WCS_RHS_Weapons",
+                                  "modId":  "65F929DF622BAD50"
+                              },
+                              {
+                                  "name":  "ADSSway-Core",
+                                  "modId":  "648D682E7038491E"
+                              },
+                              {
+                                  "name":  "ADSSway-RHS",
+                                  "modId":  "656B3A0955474CB7"
+                              },
+                              {
+                                  "name":  "BetterWeaponImmersion",
+                                  "modId":  "5A7B79D8A910A4D1"
+                              },
+                              {
+                                  "name":  "BWI-ADSsway-RHS-TAOcompat",
+                                  "modId":  "663A654A6BB0AEA4"
+                              },
+                              {
+                                  "name":  "AimingDeadzone",
+                                  "modId":  "684608DD7C7E0DFB"
+                              },
+                              {
+                                  "name":  "DarkGruFactions",
+                                  "modId":  "66E9222820080A19"
+                              },
+                              {
+                                  "name":  "Arma2Factions",
+                                  "modId":  "5F396C4F713595DB"
+                              },
+                              {
+                                  "modId":  "6510F26F66E795D4",
+                                  "name":  "PMCFaction",
+                                  "version":  ""
+                              },
+                              {
+                                  "name":  "GRS-Patches",
+                                  "modId":  "657B064AE0E231DF"
+                              },
+                              {
+                                  "name":  "GRS-Apparel",
+                                  "modId":  "65157D09F042428A"
+                              },
+                              {
+                                  "name":  "BlackCamoPack",
+                                  "modId":  "618EBC907D93DE97"
+                              },
+                              {
+                                  "modId":  "66577E328BF1401E",
+                                  "name":  "DarkGruMPPCamos-GRS",
+                                  "version":  ""
+                              },
+                              {
+                                  "modId":  "652D6536CF2D78C1",
+                                  "name":  "MisfitsClothing",
+                                  "version":  ""
+                              },
+                              {
+                                  "modId":  "652A257BA132EAC5",
+                                  "name":  "MisfitsSquadVests",
+                                  "version":  ""
+                              },
+                              {
+                                  "modId":  "652C4926E0A525B0",
+                                  "name":  "MisfitsSquadBelts",
+                                  "version":  ""
+                              },
+                              {
+                                  "modId":  "61DD377AE51CB4BD",
+                                  "name":  "MisfitsSquadGhillieSuits",
+                                  "version":  ""
+                              },
+                              {
+                                  "name":  "BMP3",
+                                  "modId":  "5B383D4CB27E0D54"
+                              },
+                              {
+                                  "name":  "BTR152",
+                                  "modId":  "65171C2883CB81B4"
+                              },
+                              {
+                                  "name":  "FMTV",
+                                  "modId":  "65B60A48AEC31157"
+                              },
+                              {
+                                  "name":  "GsBTR-90",
+                                  "modId":  "618C2492CC62D0D5"
+                              },
+                              {
+                                  "name":  "H-47Chinook",
+                                  "modId":  "61957C5C6FB7A773"
+                              },
+                              {
+                                  "name":  "HorsemansBlackBradley",
+                                  "modId":  "68C510533F2D16C5"
+                              },
+                              {
+                                  "name":  "Horsemansblackcougar",
+                                  "modId":  "68C50A99234F97E7"
+                              },
+                              {
+                                  "name":  "JLTV",
+                                  "modId":  "5C721177A220B42F"
+                              },
+                              {
+                                  "name":  "KamAZ5350",
+                                  "modId":  "633343E891C1CD38"
+                              },
+                              {
+                                  "name":  "LeesUH-1YVenom",
+                                  "modId":  "66726C1CF64BDCDC"
+                              },
+                              {
+                                  "name":  "M113",
+                                  "modId":  "5E5C154FEE1094BB"
+                              },
+                              {
+                                  "name":  "M2A2",
+                                  "modId":  "63120AE07E6C0966"
+                              },
+                              {
+                                  "name":  "PRMaxxpro",
+                                  "modId":  "684D34D51DC5E22A"
+                              },
+                              {
+                                  "name":  "SikorskyMH60DAPProject",
+                                  "modId":  "60ED3CC6E7E40221"
+                              },
+                              {
+                                  "name":  "Smokes",
+                                  "modId":  "65D050C86106E5BC"
+                              },
+                              {
+                                  "name":  "SpectralTracersUnified",
+                                  "modId":  "66EE300214703AC9"
+                              },
+                              {
+                                  "name":  "STRYKER",
+                                  "modId":  "5B02128D896F7DE8"
+                              },
+                              {
+                                  "name":  "T72A",
+                                  "modId":  "5E0AB16BEB16D6A4"
+                              },
+                              {
+                                  "name":  "VT4FRMblackReskin",
+                                  "modId":  "672EECC96D789BAA"
+                              },
+                              {
+                                  "name":  "ScenarioReloadMenu",
+                                  "modId":  "606D03292879EF5B"
+                              },
+                              {
+                                  "name":  "Zagoria89BMD1and2",
+                                  "modId":  "6734FB8B6716853D"
+                              },
+                              {
+                                  "name":  "Zagoria89MTLB",
+                                  "modId":  "67350654558A9C3D"
+                              },
+                              {
+                                  "name":  "Zagoria89T55",
+                                  "modId":  "6730FB5A6302F4C7"
+                              },
+                              {
+                                  "name":  "Zagoria89Vehicles",
+                                  "modId":  "617AC5E57EF1D9E3"
+                              },
+                              {
+                                  "name":  "ZSU-23-4",
+                                  "modId":  "62D15D0025AE021B"
+                              },
+                              {
+                                  "name":  "ZU23",
+                                  "modId":  "5C9AD9EF76F6B5EA"
+                              },
+                              {
+                                  "name":  "CRX_EnfusionAI",
+                                  "modId":  "5F268647F8A1A1F4"
+                              },
+                              {
+                                  "name":  "FSTacticalAISpawnManager",
+                                  "modId":  "68494CE78A849933"
+                              },
+                              {
+                                  "name":  "ConflictNoBaseAILimit",
+                                  "modId":  "60E547E88A9221E5"
+                              },
+                              {
+                                  "modId":  "689EDED542F881AF",
+                                  "name":  "DarcChopper",
+                                  "version":  ""
+                              },
+                              {
+                                  "modId":  "6884BEDB4F582595",
+                                  "name":  "AIMortarFireSupportSystem",
+                                  "version":  ""
+                              },
+                              {
+                                  "modId":  "68690CA04E7FFB75",
+                                  "name":  "AiMortarPve",
+                                  "version":  ""
+                              },
+                              {
+                                  "name":  "Game Master Enhanced",
+                                  "modId":  "5964E0B3BB7410CE"
+                              },
+                              {
+                                  "name":  "GMTrenches",
+                                  "modId":  "666947D8218E3B3F"
+                              },
+                              {
+                                  "name":  "BonActionAnimations",
+                                  "modId":  "5C9758250C8C56F1"
+                              },
+                              {
+                                  "name":  "BrutalVoices",
+                                  "modId":  "6174A376E06661BF"
+                              },
+                              {
+                                  "name":  "ServerAdminTools",
+                                  "modId":  "5AAAC70D754245DD"
+                              },
+                              {
+                                  "name":  "CatchaRide",
+                                  "modId":  "661B062B26BDB12F"
+                              },
+                              {
+                                  "name":  "DarkerNights",
+                                  "modId":  "5F340B3613F49010"
+                              },
+                              {
+                                  "name":  "EnvironmentalAmbienceMod",
+                                  "modId":  "6528C95796EBEDE0"
+                              },
+                              {
+                                  "name":  "ImprovedBloodEffectDeluxe",
+                                  "modId":  "660896EB172D4B7F"
+                              },
+                              {
+                                  "name":  "MoreBrutalVoices",
+                                  "modId":  "66FAF6113997388F"
+                              },
+                              {
+                                  "name":  "NIGHTVISION",
+                                  "modId":  "59A30ACC02650E71"
+                              },
+                              {
+                                  "name":  "RealismOverhaulEffects",
+                                  "modId":  "631D61C22E30D845"
+                              },
+                              {
+                                  "name":  "RealismOverhaulLighting",
+                                  "modId":  "631CC0C323562CC7"
+                              },
+                              {
+                                  "name":  "RealismOverhaulSounds",
+                                  "modId":  "631B695913C7781F"
+                              },
+                              {
+                                  "name":  "RealismOverhaulWeather",
+                                  "modId":  "64AB5D83872CCF87"
+                              },
+                              {
+                                  "name":  "SHSScenarioFramework",
+                                  "modId":  "687B6840885E539D"
+                              },
+                              {
+                                  "name":  "TacticalFlava",
+                                  "modId":  "5D550926D43F1409"
+                              },
+                              {
+                                  "name":  "WhereAmI",
+                                  "modId":  "5965550F24A0C152"
+                              },
+                              {
+                                  "name":  "Wirecutters2",
+                                  "modId":  "62F364B35E9B51B0"
+                              },
+                              {
+                                  "modId":  "606B100247F5C709",
+                                  "name":  "BaconLoadoutEditor",
+                                  "version":  ""
+                              },
+                              {
+                                  "modId":  "66D55C5BEC1BD82F",
+                                  "name":  "NoRankRequirements",
+                                  "version":  ""
+                              },
+                              {
+                                  "modId":  "64FC36E952FD8E58",
+                                  "name":  "ArsenalItemsallranks",
+                                  "version":  ""
+                              },
+                              {
+                                  "modId":  "690EE89CA417ECD8",
+                                  "name":  "sTsWCSVanillaArsenal",
+                                  "version":  ""
+                              },
+                              {
+                                  "modId":  "69075EC0BD287A6E",
+                                  "name":  "sTsRHSVanillaArsenal",
+                                  "version":  ""
+                              },
+                              {
+                                  "modId":  "6846EB65C0A446EE",
+                                  "name":  "All-In-OneArsenals",
+                                  "version":  ""
+                              },
+                              {
+                                  "modId":  "BE1D6E0000000001",
+                                  "name":  "Operator Bridge Factions",
+                                  "version":  ""
+                              },
+                              {
+                                  "modId":  "60926835F4A7B0CA",
+                                  "name":  "COE2 - Combat Ops Enhanced 2",
+                                  "version":  ""
+                              },
+                              {
+                                  "modId":  "5ED61DC0AFE17E8E",
+                                  "name":  "Kex Scenario Core",
+                                  "version":  ""
+                              },
+                              {
+                                  "modId":  "65AD7D0D9941A380",
+                                  "name":  "ACE Core Dev",
+                                  "version":  ""
+                              },
+                              {
+                                  "modId":  "65AD7C249E4ECDFB",
+                                  "name":  "ACE Captives Dev",
+                                  "version":  ""
+                              }
+                          ]
+             }
+}
